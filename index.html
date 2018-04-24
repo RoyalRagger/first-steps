@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
   </head>
   <body>
 	<div style="display: none" id="hideAll">&nbsp;</div>
@@ -30,6 +31,8 @@
   
   
   
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   
   
   <script>
@@ -37,6 +40,8 @@
 	window.onload = function(){
 		var hideAll = document.getElementById("hideAll");
 		hideAll.style.display = "none";
+		$("#login_window").draggable();
+		$("#login_window").draggable("disable");
 	}
 	
   
@@ -63,6 +68,7 @@
   function wrongInput(){
 	var password = document.getElementById("password");
 	var mail = document.getElementById("mail");
+	$("#login_window").draggable("disable");
 	
 	if(mail.value === "" ){
 		
@@ -107,8 +113,10 @@
 	
 	/*login_window.style.transform = "scale(0)";*/
 	
-	login_window.style.transform = "translateX(-1400px)";
-	login_window.style.opacity = "0";
+	/*login_window.style.transform = "translateX(-1400px)";
+	login_window.style.opacity = "0";*/
+	
+	$("#login_window").draggable("enable");
 
 	
 	
