@@ -69,6 +69,7 @@
 	var password = document.getElementById("password");
 	var mail = document.getElementById("mail");
 	$("#login_window").draggable("disable");
+	login_window.classList.remove("movable");
 	
 	if(mail.value === "" ){
 		
@@ -117,6 +118,7 @@
 	login_window.style.opacity = "0";*/
 	
 	$("#login_window").draggable("enable");
+	login_window.classList.add("movable");
 
 	
 	
