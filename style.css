@@ -16,7 +16,7 @@ body{
    right: 0px; 
    top: 0px; 
    bottom: 0px; 
-   background-color: #EA5F40;
+   background-color: #34A1CB;
    z-index: 99; /* Higher than anything else in the document */
 
  }
