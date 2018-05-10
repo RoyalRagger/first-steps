@@ -52,6 +52,7 @@ input::-webkit-contacts-auto-fill-button {
 	display: inline;
 	margin-right: 2px;
 	font-size: 13px;
+	font-weight: 400 !important;
 }
 
 
