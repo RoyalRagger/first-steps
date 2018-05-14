@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	font-family: "Roboto", sans-serif;
-		overflow: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -17,14 +16,13 @@ h1{
 	height: 100vh;
 	width: 100%;
 	filter: blur(0px);
-
 	}
 
 #bg{
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	
+
 	background: #16a4fa;
 	background: url("images/bg_black2.jpg") no-repeat center -1110px fixed;
 	background-size: cover;
@@ -39,12 +37,12 @@ h1{
 	color: rgba(255,255,255,0.8);
 	font-size: 28px;
 	transition: .25s;
-	cursor: pointer;
 	transition-delay: .2s;
 }
 
-#settings:hover{
+#settings p:nth-child(1):hover{
 	color: #fff;
+	cursor: pointer;
 	transition: .3s ease-in-out;
 	transform: rotate(-120deg);
 }
@@ -78,11 +76,11 @@ h1{
 }
 
 /*****************/
-	
+
 #hero_text{
 	position: relative;
 	top: 36vh;
-	
+
 	margin: 0 auto;
 	width: 600px;
 	text-align: center;
@@ -97,13 +95,13 @@ h1{
 	font-weight: 500;
 
 }
-	
+
 #hero_text p{
 	color: #fff;
-	font-size: 24px;
+	font-size: 20px;
 	margin: 0;
 	margin-top: -10px;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 #hero_text button{
@@ -130,10 +128,39 @@ h1{
 	outline: 0;
 }
 
+/*Arrow*/
+#arrowToPage2{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	width: 90px;
+	margin-left: -50px;
+	text-align: center;
+	font-size: 30px;
+	color: #ccc;
+}
 
+.arrow{
+	text-align: center;
+	margin-top: -24px;
+}
 
+#arrowToPage2 h2{
+	font-weight: 300;
+	font-size:15px;
+	margin-bottom: 24px;
+}
 
+#arrowToPage2:hover{
+	color: #fff;
+	cursor: pointer;
+	transition: .1s;
+}
 
+/*Page2*/
 
-
-
+#page2{
+	height: 100vh;
+	width: 100%;
+	background: #fff;
+}
