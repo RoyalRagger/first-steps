@@ -1513,7 +1513,6 @@ header .header-logo a {
   background-image: url(../images/titelbild-skydance.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
