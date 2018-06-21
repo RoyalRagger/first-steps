@@ -1512,7 +1512,9 @@ header .header-logo a {
   background-color: #151515;
   background-image: url(../images/titelbild-skydance.jpg);
   background-repeat: no-repeat;
-  background-position: center 30%;
+  /*background-position: center 30%;*/
+  background-position: bottom 100%;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-attachment: fixed;
