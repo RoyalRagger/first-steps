@@ -1,59 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>title</title>
+  <title>title</title>
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
 
-  </head>
-  <body>
-
-	<div id="page1">
-		<div id="bg"></div>
-
-		<div id="settings">
-			<p><i class="fas fa-cog"></i></p>
-		</div>
-
-		<div id="login">
-			<a href="#">login</a>
-		</div>
-
-		<div id="hero_text">
-			<h1 id="leftover">leftover</h1>
-			<p>Simply check your past and future balance.</p>
-			<button id="button_signIn">Sign In</button>
-		</div>
-
-    <div id="arrowToPage2">
-      <h2>learn more</h2>
-      <div class="arrow"><i class="fas fa-angle-down"></i></div>
-      <div class="arrow"><i class="fas fa-angle-down"></i></div>
-	  </div>
-</div>
-<div id="page2">
+<body>
 
 
-
-
-</div>
-
-
-	<script>
-  //arrow scroll to Page 2
-	var arrow = document.getElementById("arrowToPage2");
-	 arrow.onclick = function(){
-     var scrollHeight = window.scrollY;
-     var pageHeight = document.getElementById("page1").offsetHeight;
-     var target = pageHeight - scrollHeight;
-
-     window.scrollTo(0, target);
-	}
-
-	</script>
-
-
-  </body>
+</body>
 </html>
