@@ -2010,6 +2010,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   min-height: 800px;
   position: relative;
   padding: 0;
+  padding-bottom: 200px;
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
@@ -2867,43 +2868,6 @@ footer h4.h05::after {
 }
 .footer-main .subscribe-form {
   position: relative;
-}
-.footer-main #mc-form {
-  margin: 0;
-  padding: 0;
-}
-.footer-main #mc-form input[type="email"] {
-  height: 6rem;
-  padding: 1.5rem 8rem 1.5rem 2rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-.footer-main #mc-form button {
-  background-color: #f9a828;
-  color: #000000;
-  width: 6rem;
-  height: 6rem;
-  line-height: 6rem;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.footer-main #mc-form button:hover {
-  background-color: #f89e0f;
-}
-.footer-main #mc-form button i {
-  font-size: 2.6rem;
-  line-height: 6rem;
-  margin: 0;
-  position: relative;
-  left: .2rem;
-}
-.footer-main #mc-form label {
-  color: #f9a828;
-  font-family: "montserrat-regular", sans-serif;
 }
 
 /* footer bottom
